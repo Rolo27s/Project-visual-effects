@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="keywords" content="visual effect, dragon, matrix, god, bubble" />
+        <meta
+            name="description"
+            content="Visual effects display. Dynamic and interactive visual effects. Use of canvas library."
+        />
+        <meta name="author" content="Enterprise name" />
+        <meta name="robots" content="index, follow" />
+        <link rel="stylesheet" href="/css/style.css" />
+        <link rel="stylesheet" href="/css/scrollBar.css" />
+        <link rel="shortcut icon" href="/assets/icon.png" type="image/x-icon" />
+        <title>Visual effects</title>
+    </head>
+    <body>
+        <h1>Visual effects</h1>
+        <div class="container">
+            <section>
+                <div class="flex-container">
+                    <h2>Dragon tail &nbsp;<span id="flicker">&nbsp; (Paint here!)</span></h2>
+                    <div class="flex-container btn-clear">
+                        <img class="cdc" src="assets/rubber.png" alt="rubber" srcset="assets/rubber.png" /><button
+                            id="canvas-dragon-clear"
+                        >
+                            RESET
+                        </button>
+                    </div>
+                </div>
+                <canvas id="canvas-dragon"></canvas>
+            </section>
+            <section>
+                <h2>Matrix effect</h2>
+                <canvas id="canvas-matrix"></canvas>
+            </section>
+            <section>
+                <h2>The god eye</h2>
+                <canvas id="canvas-god"></canvas>
+            </section>
+            <section>
+                <h2>Buble</h2>
+                <canvas id="canvas-buble"></canvas>
+            </section>
+        </div>
+    </body>
+    <script src="js/dragon.js"></script>
+    <script src="js/matrix.js"></script>
+    <script src="js/god.js"></script>
+    <script src="js/buble.js"></script>
+</html>
